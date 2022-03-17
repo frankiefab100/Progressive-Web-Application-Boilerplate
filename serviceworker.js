@@ -1,12 +1,7 @@
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open("sw-cache").then((cache) => {
-      return cache.addAll([
-        "./",
-        "./assets/style.css",
-        "./assets/app.js",
-        "./img/favicon.png",
-      ]);
+      return cache.addAll(["/", "/index.html", "/css/style.css", "/js/app.js"]);
     })
   );
 });

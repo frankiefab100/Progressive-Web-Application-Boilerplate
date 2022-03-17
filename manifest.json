@@ -1,7 +1,7 @@
 {
-    "name" : "Progressive Web Glassmorphic Weather Forecasting Application",
-    "short_name" : "Weather App - PWA",
-    "start_url" : "/pwa-link-name",
+    "name" : "Progressive Web Application Template",
+    "short_name" : "PWA Kit",
+    "start_url" : "/index.html",
     "background_color" : "#003",
     "theme_color": "#363c42",
     "display" : "standalone",
@@ -34,3 +34,5 @@
         }
     ]
 }
+
+
